@@ -1,0 +1,77 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    background: linear-gradient(to right, #fbd3e9, #f9e7b4);
+  }
+  
+  /* Main container */
+  div {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  /* Main title */
+  h1 {
+    color: #b8860b;
+    margin-bottom: 10px;
+    font-family: 'monotype corsiva';
+    font-size: 50px;
+  }
+  
+  /* Sub title */
+  h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  /* Normal text */
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Countdown section */
+  h3 {
+    color: #b8860b;
+    margin-top: 30px;
+  }
+  .countdown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .countdown div {
+    background-color: #b8860b;
+    color: white;
+    width: 22%;
+    padding: 15px 0;
+    border-radius: 10px;
+  }
+  
+  .countdown span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .countdown p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: white;
+  }
+  
+  
+  /* Footer */
+  footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+  }
+  
